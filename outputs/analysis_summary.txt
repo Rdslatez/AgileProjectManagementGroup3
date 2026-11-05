@@ -1,0 +1,54 @@
+VIDEO GAME SALES ANALYTICS - SPRINT 1 OUTPUT
+Records loaded: 16,719
+Total global sales: 8,920.30 million
+Average global sales per record: 0.534 million
+Highest global sales for one record: 82.53 million
+
+REGIONAL SALES (millions):
+       Region  Total_Sales
+North America      4402.62
+       Europe      2424.67
+        Japan      1297.43
+        Other       791.34
+
+TOP 10 GAMES:
+                     Name Platform  Global_Sales
+               Wii Sports      Wii         82.53
+        Super Mario Bros.      NES         40.24
+           Mario Kart Wii      Wii         35.52
+        Wii Sports Resort      Wii         32.77
+ Pokemon Red/Pokemon Blue       GB         31.37
+                   Tetris       GB         30.26
+    New Super Mario Bros.       DS         29.80
+                 Wii Play      Wii         28.92
+New Super Mario Bros. Wii      Wii         28.32
+                Duck Hunt      NES         28.31
+
+GLOBAL SALES BY GENRE:
+       Genre  Game_Count  Total_Global_Sales  Average_Global_Sales
+      Action        3370             1745.27              0.517884
+      Sports        2348             1332.00              0.567291
+     Shooter        1323             1052.94              0.795873
+Role-Playing        1500              934.40              0.622933
+    Platform         888              828.08              0.932523
+        Misc        1750              803.18              0.458960
+      Racing        1249              728.90              0.583587
+    Fighting         849              447.48              0.527067
+  Simulation         874              390.42              0.446705
+      Puzzle         580              243.02              0.419000
+   Adventure        1303              237.69              0.182417
+    Strategy         683              174.50              0.255490
+     Unknown           2                2.42              1.210000
+
+MISSING VALUES AFTER CLEANING:
+         Column  Missing_Count  Missing_Percent
+     User_Score           9129            54.60
+     User_Count           9129            54.60
+   Critic_Score           8582            51.33
+   Critic_Count           8582            51.33
+         Rating           6769            40.49
+      Developer           6623            39.61
+Year_of_Release            269             1.61
+           Name              0             0.00
+       JP_Sales              0             0.00
+       EU_Sales              0             0.00
