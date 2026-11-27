@@ -2,7 +2,7 @@
 
 The application loads the project CSV, cleans the data, calculates baseline
 statistics with NumPy, stores the cleaned records in SQLite, and exports SQL
-analysis results and charts.
+analysis results and charts
 """
 
 from __future__ import annotations
